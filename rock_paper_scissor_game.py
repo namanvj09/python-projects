@@ -4,7 +4,7 @@ choices = tuple(emojis.keys())
 
 def get_user_choice():
     while True:
-        user_choice = input("Rock, Paper, Scissors (r/p/s): ").lower()
+        user_choice = input("Rock, Paper, Scissors (r/p/s) ").lower()
         if(user_choice in choices):
             return user_choice
         else:
