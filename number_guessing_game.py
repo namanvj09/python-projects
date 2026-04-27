@@ -10,7 +10,7 @@ while random_number != guess_number:
         print("Invalid input. Please enter a number.")
         continue
     if guess_number < random_number:
-        print("Too low! Try again.")
+        print("Too low! Try again..")
     elif guess_number > random_number:
         print("Too high! Try again.")
     else:
