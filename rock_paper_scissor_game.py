@@ -33,7 +33,7 @@ def play_game():
         result = determine_winner(user_choice, system_choice)
         print(result)
 
-        continue_game = input("Continue or not? y/n: ").lower()
+        continue_game = input("Continue or not? y/n:: ").lower()
         if continue_game != 'y':
             break
 
