@@ -5,7 +5,7 @@ guess_number = 0
 
 while random_number != guess_number:
     try:
-        guess_number = int(input("Guess the number (1-100): "))
+        guess_number = int(input("Guess the number (1-100) "))
     except ValueError:
         print("Invalid input. Please enter a number.")
         continue
